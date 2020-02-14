@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Курс Палют | About</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">	
+	<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+</head>
+<body>
+	{% include 'header.html' %}
+	<br>
+	<div class='title'>
+		<h1><strong>About</strong></h1>
+	</div>
+	<br><br>
+	<center>
+		<div class='text'>
+			<p>
+				На данном сайте использован парсинг валют из сайта 
+				<a class='link_bank' href="https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml">European Central Bank</a>.
+			</p>
+			<p><strong>*</strong>Специально решенная таска для <strong>Andrey Klimenko</strong>.</p>
+		</div>
+	</center>
+
+</body>
+</html>
